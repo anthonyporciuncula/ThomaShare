@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\jacob\Desktop\ThomaSHARE\Source Code\thomasharefinal\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="57cba90b5cab408401b2ade6f481616daa99859f">
+        <dex dex="C:\Users\jacob\Desktop\ThomaSHARE\Source Code\thomasharefinal\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4ef2070a96bc7291fa1aa736add08336112427fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jacob\Desktop\ThomaSHARE\Source Code\thomasharefinal\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\jacob\Desktop\ThomaSHARE\Source Code\thomasharefinal\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_12affb67cdbde7a5e8449cea98da6a9b968b8e40\classes.dex" />
+    </item>
+
+</items>

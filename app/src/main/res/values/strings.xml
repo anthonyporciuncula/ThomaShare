@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">ThomaShare</string>
+    <string name="AppName">ThomaSHARE</string>
+    <string name="PleaseSignIn">Please sign in.</string>
+    <string name="or">or</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="namy">Not a member yet?</string>
+    <string name="forgotPassword">Forgot Password?</string>
+    <string name="login">Log In</string>
+    <string name="signUp">Sign Up</string>
+    <string name="firstName">First name</string>
+    <string name="lastName">Last Name</string>
+    <string name="email">Email address</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="facebook">log in with facebook</string>
+    <string name="markInterest">Mark all categories that interests you</string>
+    <string name="it">Information Technology</string>
+    <string name="cfad">Fine Arts and Design</string>
+    <string name="med">Medicine</string>
+    <string name="eng">Engineering</string>
+    <string name="educ">Education</string>
+    <string name="hrm">Hospitality Management</string>
+    <string name="archi">Architecture</string>
+    <string name="ab">Arts and Letters</string>
+    <string name="philo">Philosophy</string>
+    <string name="law">Law</string>
+    <string name="music">Music</string>
+    <string name="pe">Physical Education and Athletics</string>
+    <string name="submit">Submit</string>
+    <string name="fileName">sampleFile.pdf</string>
+    <string name="java">Java Programming</string>
+    <string name="php">PHP Programming</string>
+    <string name="elements">Elements of Design</string>
+    <string name="painting">Painting</string>
+    <string name="title_activity_nav_drawer">NavDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

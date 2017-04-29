@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.hood.thomashare">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Navigation"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/SignUp">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Discover"
+            android:label="Discover"
+            android:parentActivityName=".ProfileActivity"
+            android:theme="@style/all">
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:theme="@style/SignUp" />
+        <activity
+            android:name=".AddInterest"
+            android:label="Add Interest"
+            android:parentActivityName=".ProfileActivity"
+            android:theme="@style/all" />
+        <activity
+            android:name=".Upload"
+            android:label="Upload"
+            android:parentActivityName=".ProfileActivity"
+            android:theme="@style/all">
+        </activity>
+        <activity
+            android:name=".Explore"
+            android:label="Explore"
+            android:parentActivityName=".ProfileActivity"
+            android:theme="@style/all">
+
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".testInformation" />
+        <activity android:name=".Explore_fileList"
+            android:label="Files"
+            android:parentActivityName=".Explore"
+            android:theme="@style/all">
+        </activity>
+    </application>
+
+</manifest>

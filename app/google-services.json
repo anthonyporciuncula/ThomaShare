@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "303642093329",
+    "firebase_url": "https://thomashare-161ce.firebaseio.com",
+    "project_id": "thomashare-161ce",
+    "storage_bucket": "thomashare-161ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303642093329:android:dcce542958c6183f",
+        "android_client_info": {
+          "package_name": "com.android.hood.thomashare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303642093329-h55nti8298qpu9l4kilva3m01tlg9lgj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.hood.thomashare",
+            "certificate_hash": "7258dafef966f6277834f7d97b72ad3b1c2a6c07"
+          }
+        },
+        {
+          "client_id": "303642093329-cb6ibei0pph6597cnggffk8jm451ck9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXV3tTIVfAEvPvTSRIqkN_hfttojgEYe0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303642093329-cb6ibei0pph6597cnggffk8jm451ck9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

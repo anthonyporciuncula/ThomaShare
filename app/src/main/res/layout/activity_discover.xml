@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_discover"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="?android:attr/windowBackground"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:visibility="visible"
+    tools:context="com.android.hood.thomashare.Discover">
+
+
+    <ProgressBar
+        android:id="@+id/pb_discover"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:elevation="2dp"
+        android:progressTint="@color/White"
+        android:visibility="visible" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="1dp"
+        app:contentPadding="@dimen/activity_vertical_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_discover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <!--<ListView-->
+            <!--android:id="@+id/lvList"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:divider="@android:color/transparent" />-->
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <!--<LinearLayout-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:weightSum="1">-->
+
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/cardView2"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_weight="0"-->
+    <!--android:layout_margin="@dimen/button_elevation_fix">-->
+
+    <!--<LinearLayout-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<TextView-->
+    <!--android:text="@string/it"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/tvDiscoverHeader"-->
+    <!--android:textSize="18sp"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="@color/PrimaryText"-->
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin" />-->
+
+    <!--<LinearLayout-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_width="match_parent">-->
+
+    <!--<ImageView-->
+    <!--app:srcCompat="@drawable/docs"-->
+    <!--android:id="@+id/img1"-->
+    <!--android:layout_weight="0"-->
+    <!--android:layout_width="30dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_marginLeft="@dimen/button_elevation_fix" />-->
+
+    <!--<TextView-->
+    <!--android:text="TextView"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:id="@+id/tvList1"-->
+    <!--android:layout_weight="1"-->
+    <!--android:textSize="16sp"-->
+    <!--android:gravity="center_vertical"-->
+    <!--tools:text="@string/java"-->
+    <!--android:layout_marginLeft="@dimen/activity_vertical_margin" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:weightSum="1">-->
+
+    <!--<ImageView-->
+    <!--app:srcCompat="@drawable/docs"-->
+    <!--android:id="@+id/img2"-->
+    <!--android:layout_weight="0"-->
+    <!--android:layout_width="30dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_marginLeft="@dimen/button_elevation_fix" />-->
+
+    <!--<TextView-->
+    <!--android:text="TextView"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:id="@+id/tvList2"-->
+    <!--android:layout_weight="1"-->
+    <!--tools:text="@string/php"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:textSize="16sp"-->
+    <!--android:textColor="@color/SecondaryText"-->
+    <!--android:layout_marginLeft="@dimen/activity_vertical_margin" />-->
+
+    <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+    <!--</android.support.v7.widget.CardView>-->
+
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="12dp"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_weight="0"-->
+    <!--android:layout_margin="@dimen/button_elevation_fix">-->
+
+    <!--<LinearLayout-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<TextView-->
+    <!--android:text="@string/cfad"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/tvDiscoverHeader2"-->
+    <!--android:textSize="18sp"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="@color/PrimaryText"-->
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin" />-->
+
+    <!--<LinearLayout-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_width="match_parent">-->
+
+    <!--<ImageView-->
+    <!--android:layout_height="50dp"-->
+    <!--app:srcCompat="@drawable/docs"-->
+    <!--android:id="@+id/img3"-->
+    <!--android:layout_weight="0"-->
+    <!--android:layout_width="30dp"-->
+    <!--android:layout_marginLeft="@dimen/button_elevation_fix" />-->
+
+    <!--<TextView-->
+    <!--android:text="@string/elements"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:id="@+id/tvList3"-->
+    <!--android:layout_weight="1"-->
+    <!--android:textSize="16sp"-->
+    <!--android:gravity="center_vertical"-->
+    <!--tools:text="@string/java"-->
+    <!--android:layout_marginLeft="@dimen/activity_vertical_margin" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:weightSum="1">-->
+
+    <!--<ImageView-->
+    <!--app:srcCompat="@drawable/docs"-->
+    <!--android:id="@+id/img4"-->
+    <!--android:layout_weight="0"-->
+    <!--android:layout_width="30dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_marginLeft="@dimen/button_elevation_fix" />-->
+
+    <!--<TextView-->
+    <!--android:text="@string/painting"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:id="@+id/tvList4"-->
+    <!--android:layout_weight="1"-->
+    <!--tools:text="@string/php"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:textSize="16sp"-->
+    <!--android:textColor="@color/SecondaryText"-->
+    <!--android:layout_marginLeft="@dimen/activity_vertical_margin" />-->
+
+    <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+    <!--</android.support.v7.widget.CardView>-->
+
+    <!--</LinearLayout>-->
+
+</RelativeLayout>
